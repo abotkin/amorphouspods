@@ -7,5 +7,6 @@ Pod::Spec.new do |s|
   s.homepage     =  'http://www.box2d.org'
   s.author       =  { 'Alexander Botkin' => 'axb2@cornell.edu' }
   s.source       =  { :git => 'https://github.com/iXerxes/box2d.git' }
-  s.source_files =  '**/*.{h,cpp}'
+  s.source_files =  'Box2D/**/*.{h,cpp}'
+  s.header_mappings_dir = 'Box2D'
 end
