@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         =  'box2d-amorphous'
+  s.name         =  'Box2D'
   s.license      =  { :type => 'MIT', :file => 'LICENSE_Box2D.txt' }
   s.version      =  '1.1.rc0'
   s.summary      =  'box2d is a physics engine.'
